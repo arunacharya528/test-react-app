@@ -1,6 +1,6 @@
-name = "test-deploy"  # Replace with your actual Worker name from Cloudflare dashboard
-main = "dist"      # ← This is the key! Point to your main Worker script (adjust path as needed)
-compatibility_date = "2025-11-20"  # Use today's date or later
+name = "test-deploy"
+pages_build_output_dir = "./dist"
+compatibility_date = "2025-11-20" # Use today's date or later
 
 # Optional: Add account/zone if not using API token
 # account_id = "your-account-id"
